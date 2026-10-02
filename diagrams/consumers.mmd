@@ -1,0 +1,10 @@
+flowchart LR
+  htc["hermetic toolchain"]
+  ltc["host toolchain"]
+  rcc["rules_cc"]
+  ct["clang-tidy"]
+  fcc["foreign_cc"]
+  htc --> rcc
+  htc --> ct
+  htc --> fcc
+  ltc --> fcc

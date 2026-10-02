@@ -1,0 +1,14 @@
+---
+config:
+  class:
+    hideEmptyMembersBox: true
+---
+classDiagram
+  direction TB
+  class cxx["C++ standard library"]
+  class libc["C standard library"]
+  class headers["Kernel headers"]
+  class kernel["Linux kernel"]
+  cxx ..> libc : built on
+  libc ..> headers : built against
+  headers ..> kernel : declare API of

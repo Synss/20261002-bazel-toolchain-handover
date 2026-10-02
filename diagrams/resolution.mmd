@@ -1,0 +1,10 @@
+flowchart LR
+  ep["Exec platform"]
+  tp["Target platform"]
+  tc["Registered toolchains"]
+  res{"Toolchain resolution"}
+  sel["Selected"]
+  ep --> res
+  tp --> res
+  tc --> res
+  res --> sel

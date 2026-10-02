@@ -1,0 +1,107 @@
+:root {
+    --r-main-font-size: 20px;
+    --r-heading-text-transform: none;
+}
+
+.reveal .slides section {
+    text-align: left;
+    padding: 0;
+}
+
+
+.callout-warning,
+.callout-info {
+    padding: 0.4em 0.8em;
+    border-left: 4px solid;
+    border-radius: 2px;
+    margin: 0.5em 0;
+}
+
+.callout-warning {
+    background: #fff3cd;
+    border-color: #e6a817;
+}
+
+.callout-info {
+    background: #d8edf4;
+    border-color: #2196a8;
+}
+
+.reveal h2 {
+    color: #2196a8;
+    margin-top: 0.1em;
+}
+
+.reveal h3 {
+    border-left: 4px solid #2196a8;
+    padding-left: 0.4em;
+    margin-top: 1em;
+}
+
+.reveal .slides section>h3:first-child,
+.reveal .column>h3:first-child {
+    margin-top: 0;
+}
+
+.reveal h4 {
+    /* border-left: 1px solid #5aabb8; */
+    padding-left: 0.4em;
+    font-size: 1.15em;
+    margin-top: 0.8em;
+    color: #555555;
+}
+
+.section-details {
+    color: #555555;
+}
+
+.reveal .slides section.section-toc {
+    padding-top: 3em;
+    padding-left: 3em;
+}
+
+.reveal blockquote {
+    box-shadow: none;
+    color: #555555;
+}
+
+.reveal figure {
+    margin: 0;
+}
+
+.reveal table {
+    border-collapse: collapse;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+.reveal table th,
+.reveal table td {
+    border: 1px solid #aaaaaa;
+    padding: 0.3em 0.6em;
+    vertical-align: middle;
+}
+
+/* pandoc leaves bash 'Extension' tokens (commands) unstyled in all themes */
+code span.ex {
+    color: #3465a4;
+}
+
+.callout-seealso {
+    border-left: 2px solid #aaaaaa;
+    padding-left: 0.8em;
+    font-size: 0.85em;
+    color: #555555;
+    margin: 2.0em 0 0.5em;
+}
+
+.reveal pre code {
+    max-height: none;
+    font-size: 1.1em
+}
+
+.reveal :not(pre)>code,
+.reveal kbd,
+.reveal samp {
+    font-size: 0.9em;
+    color: #1b6e2e;
+}
