@@ -2,7 +2,7 @@
 
 Slides for handing over the Bazel CC toolchain.
 
-Presentation given at Checkmk, 2026-05-21.
+Presentation given at Checkmk, 2026-10-02.
 
 **[Open slides](https://synss.github.io/20261002-bazel-toolchain-handover/)**
 
